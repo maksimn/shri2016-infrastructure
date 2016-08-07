@@ -1,0 +1,30 @@
+{
+  "name": "infra-example",
+  "version": "1.0.0",
+  "description": "Пример сервера для проекта с инфраструктурой",
+  "main": "run.js",
+  "scripts": {
+    "heroku:create-hosting": "heroku create",
+    "heroku:deploy": "git push heroku +master",
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andre487/infra-example.git"
+  },
+  "author": "Andrey Prokopyuk <andrey.prokopyuk@gmail.com> (http://andre.life)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/andre487/infra-example/issues"
+  },
+  "homepage": "https://github.com/andre487/infra-example#readme",
+  "dependencies": {
+    "cool-ascii-faces": "^1.3.4",
+    "ejs": "^2.4.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.0.1",
+    "nodemon": "^1.9.2"
+  }
+}

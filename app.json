@@ -1,0 +1,6 @@
+{
+  "name": "Пример приложения",
+  "description": "Пример приложения для домашнего задания по инфраструктуре",
+  "repository": "https://github.com/andre487/infra-example",
+  "image": "heroku/nodejs"
+}
