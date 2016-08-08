@@ -1,3 +1,8 @@
 language: node_js
 node_js:
-- '4.4.2'
+- 4.4.2
+deploy:
+  provider: heroku
+  app: sheltered-waters-87776
+  api_key:
+    secure: fGXRUKnZ9fRMoyFaUrZVwQWU3skavJAXT9e/1M4SaFpwsKSPRfONcYwI6/mV/UXarSZ5WhlV3I9MaTzpLjDiO50cxT1LJFkOn4kTTf/L7H+LzKhSKz2uTTt4g8V9/zk5WgrlWSJhQ/7SFVUk+HqT8KGQjo96xnTIzBLNt4E1hA9pF5P4FFFymn6/WNuWDkQMqcOVDQuExJvaHgHEQOfu/maS0CynZZTCOj6iOA89MbSzZiKVop0opMbfTh+2QaM9aoaTi4avQASC5SP33XsSiSBK5kjp45RBjVzJDbCqyJADMpcrrv88fz9spOtEIbyegf1MeDdA/hzjI/Vj2Co4U9QPdxA/vL++doWpNNyuzjVwdE4O9eMEwYaVHEA/XJa7p23ohA8ivjEAwEELt7O1SQQ/Y7BkxSSFQZ5FtaFLhskYow/BmW2p9cHswXyAC+EST69+4Gd42pfovDf5yc5/656wBoOA2UOKoQYJqpasmYlGrmMTRMnlpOeRkX2qyDbzLsnzJKoFty6kUbfKyjEHy6yvaJ7hXSJ0UF+QG3OArLEseio+o7g4QOaFtrw34xPKrQjyfHG/nm5ngEQZ1xLr4ZGHKyWl6/fPwE7XI1WhkPFdEwVaVY3Ym9dZQZJ0BVMO/Hchfp2xZ4fBLJUxtzzYRbWyszFcEbca+5y9rHkgjlE=
