@@ -6,7 +6,7 @@
   "scripts": {
     "heroku:create-hosting": "heroku create",
     "heroku:deploy": "git push heroku +master",
-    "test": "eslint ."
+    "test": "mocha && eslint ."
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "eslint": "^3.0.1",
-    "nodemon": "^1.9.2"
+    "nodemon": "^1.9.2",
+	"mocha": "^3.0.2"
   }
 }
